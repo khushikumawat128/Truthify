@@ -1,0 +1,1260 @@
+{
+    "props": {
+        "pageProps": {
+            "productDetails": {
+                "isComboAvailable": false,
+                "isCosmetic": false,
+                "children": [
+                    {
+                        "base_img_url": "https://www.bigbasket.com/media/uploads",
+                        "visibility": {
+                            "path_id": 1829,
+                            "fc_id": 704,
+                            "sa_id": 10654
+                        },
+                        "id": "40198332",
+                        "desc": "Fudge It - Chocolate Brownie",
+                        "pack_desc": "",
+                        "w": "120 g",
+                        "additional_info": {
+                            "key_highlights": [],
+                            "assurance_widget": []
+                        },
+                        "absolute_url": "/pd/40198332/britannia-fudge-it-chocolate-brownie-120-g/",
+                        "usp": "",
+                        "cart_count": 0,
+                        "aplus_url": null,
+                        "images": [
+                            {
+                                "s": "https://www.bigbasket.com/media/uploads/p/s/40198332_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "m": "https://www.bigbasket.com/media/uploads/p/m/40198332_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "l": "https://www.bigbasket.com/media/uploads/p/l/40198332_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "xl": "https://www.bigbasket.com/media/uploads/p/xl/40198332_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "xxl": "https://www.bigbasket.com/media/uploads/p/xxl/40198332_1-britannia-fudge-it-chocolate-brownie.jpg"
+                            },
+                            {
+                                "s": "https://www.bigbasket.com/media/uploads/p/s/40198332-2_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "m": "https://www.bigbasket.com/media/uploads/p/m/40198332-2_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "l": "https://www.bigbasket.com/media/uploads/p/l/40198332-2_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "xl": "https://www.bigbasket.com/media/uploads/p/xl/40198332-2_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "xxl": "https://www.bigbasket.com/media/uploads/p/xxl/40198332-2_1-britannia-fudge-it-chocolate-brownie.jpg"
+                            },
+                            {
+                                "s": "https://www.bigbasket.com/media/uploads/p/s/40198332-3_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "m": "https://www.bigbasket.com/media/uploads/p/m/40198332-3_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "l": "https://www.bigbasket.com/media/uploads/p/l/40198332-3_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "xl": "https://www.bigbasket.com/media/uploads/p/xl/40198332-3_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "xxl": "https://www.bigbasket.com/media/uploads/p/xxl/40198332-3_1-britannia-fudge-it-chocolate-brownie.jpg"
+                            },
+                            {
+                                "s": "https://www.bigbasket.com/media/uploads/p/s/40198332-4_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "m": "https://www.bigbasket.com/media/uploads/p/m/40198332-4_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "l": "https://www.bigbasket.com/media/uploads/p/l/40198332-4_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "xl": "https://www.bigbasket.com/media/uploads/p/xl/40198332-4_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "xxl": "https://www.bigbasket.com/media/uploads/p/xxl/40198332-4_1-britannia-fudge-it-chocolate-brownie.jpg"
+                            },
+                            {
+                                "s": "https://www.bigbasket.com/media/uploads/p/s/40198332-5_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "m": "https://www.bigbasket.com/media/uploads/p/m/40198332-5_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "l": "https://www.bigbasket.com/media/uploads/p/l/40198332-5_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "xl": "https://www.bigbasket.com/media/uploads/p/xl/40198332-5_1-britannia-fudge-it-chocolate-brownie.jpg",
+                                "xxl": "https://www.bigbasket.com/media/uploads/p/xxl/40198332-5_1-britannia-fudge-it-chocolate-brownie.jpg"
+                            }
+                        ],
+                        "variable_weight": null,
+                        "brand": {
+                            "name": "Britannia",
+                            "slug": "britannia",
+                            "url": "/pb/britannia/"
+                        },
+                        "category": {
+                            "tlc_name": "Bakery, Cakes \u0026 Dairy",
+                            "tlc_slug": "bakery-cakes-dairy",
+                            "llc_name": "Tea Cakes \u0026 Slice Cakes",
+                            "llc_slug": "type=pc\u0026slug=tea-cakes-slice-cakes",
+                            "llc_id": 1421
+                        },
+                        "additional_attr": {
+                            "bby_lod": null,
+                            "info": [
+                                {
+                                    "id": null,
+                                    "type": "food_type",
+                                    "sub_type": "non-veg",
+                                    "position": null,
+                                    "image_url": null,
+                                    "label": "non-veg"
+                                }
+                            ]
+                        },
+                        "tabs": [
+                            {
+                                "content": "\u003cstyle type=\"text/css\"\u003e @import url(\"https://www.bbassets.com/static/froala_style_v2.min.css\"); \u003c/style\u003e\n        \u003cdiv style=\"font-family: 'ProximaNova-Regular';font-size:13px;line-height: 18px;color:8f8f8f;\"\u003e\n            \u003cp\u003eBritannia Fudge It Chocolate Brownie Cake is in town. With a delectable, mouth-watering taste, it is going to win your heart and be your new dessert buddy. Filled with the goodness of wheat, eggs, milk, and soya, the brownie cake deliciously melts in your mouth. This soft, spongy, and fluffy brownie cake will definitely make you say 'One more!' Believing in delivering fresh and healthy products, Britannia India manufactures some of India's favourite cakes. \u003c/p\u003e\n        \u003c/div\u003e",
+                                "title": "About the Product"
+                            },
+                            {
+                                "content": "\u003cstyle type=\"text/css\"\u003e @import url(\"https://www.bbassets.com/static/froala_style_v2.min.css\"); \u003c/style\u003e\n        \u003cdiv style=\"font-family: 'ProximaNova-Regular';font-size:13px;line-height: 18px;color:8f8f8f;\"\u003e\n            \u003cp\u003eEnjoy the delicious and mouth-watering flavours in every slice of ready to eat Britannia Cakes.\u003c/p\u003e\n        \u003c/div\u003e",
+                                "title": "How to Use"
+                            },
+                            {
+                                "content": "\u003cstyle type=\"text/css\"\u003e @import url(\"https://www.bbassets.com/static/froala_style_v2.min.css\"); \u003c/style\u003e\n        \u003cdiv style=\"font-family: 'ProximaNova-Regular';font-size:13px;line-height: 18px;color:8f8f8f;\"\u003e\n            \u003cp\u003eEAN Code: 8901063363359\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\u003cp\u003eFSSAI Number: 10015043001129\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\u003cp\u003eManufactured \u0026amp; Marketed By: Britannia Industries Ltd., Prestige Shanthiniketan Tower C, Whitefield, Bangalore-560048, Karnataka\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\u003cp\u003eCountry of Origin: India\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\u003cp\u003eBest before 14-11-2024\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\u003cp\u003eDisclaimer: The expiry date shown here is for indicative purposes only. Please refer to the information provided on the product package received at delivery for the actual expiry date\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\u003cp\u003eFor Queries/Feedback/Complaints, contact our customer care executive at 1860 123 1000 | Address: Innovative Retail Concepts Private Limited, Ranka Junction 4th Floor, Tin Factory Bus Stop. KR Puram, Bangalore - 560016 Email: customerservice@bigbasket.com\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\n        \u003c/div\u003e",
+                                "title": "Other Product Info"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "header": "COUNTRY OF ORIGIN",
+                                "values": [
+                                    {
+                                        "display_name": "India",
+                                        "dest_type": "product_list",
+                                        "dest_slug": "type=tag\u0026slug=country-of-origin--india",
+                                        "url": "/ts/173/country-of-origin/india"
+                                    }
+                                ]
+                            },
+                            {
+                                "header": "FOOD PREFERENCE",
+                                "values": [
+                                    {
+                                        "display_name": "Non Vegetarian",
+                                        "dest_type": "product_list",
+                                        "dest_slug": "type=tag\u0026slug=food-preference--non-vegetarian",
+                                        "url": "/ts/879/food-preference/non-vegetarian"
+                                    }
+                                ]
+                            }
+                        ],
+                        "combo": {
+                            "destination": {
+                                "display_name": "+3 More Combos",
+                                "dest_type": "product_summary",
+                                "dest_slug": null,
+                                "dest_ids": [
+                                    1223841,
+                                    1223949,
+                                    1223950
+                                ]
+                            },
+                            "items": null,
+                            "total_saving_msg": null,
+                            "total_sp": null,
+                            "total_mrp": null
+                        },
+                        "breadcrumb": [
+                            {
+                                "id": 367,
+                                "name": "bakery, cakes \u0026 dairy",
+                                "slug": "bakery-cakes-dairy",
+                                "type": "pc",
+                                "url": "/cl/bakery-cakes-dairy/"
+                            },
+                            {
+                                "id": 1416,
+                                "name": "cakes \u0026 pastries",
+                                "slug": "cakes-pastries",
+                                "type": "pc",
+                                "url": "/pc/bakery-cakes-dairy/cakes-pastries/"
+                            },
+                            {
+                                "id": 1421,
+                                "name": "tea cakes \u0026 slice cakes",
+                                "slug": "tea-cakes-slice-cakes",
+                                "type": "pc",
+                                "url": "/pc/bakery-cakes-dairy/cakes-pastries/tea-cakes-slice-cakes/"
+                            }
+                        ],
+                        "rating_info": {
+                            "avg_rating": "4.2",
+                            "rating_count": 3629,
+                            "review_count": 76,
+                            "sku_id": 40198332
+                        },
+                        "availability": {
+                            "avail_status": "001",
+                            "short_eta": null,
+                            "medium_eta": null,
+                            "long_eta": null,
+                            "label": null,
+                            "display_mrp": true,
+                            "display_sp": true,
+                            "not_for_sale": false,
+                            "button": "Add",
+                            "show_express": null
+                        },
+                        "pricing": {
+                            "offer": {
+                                "arrow_image": null,
+                                "background": {
+                                    "direction": null,
+                                    "gradient": null
+                                },
+                                "background_border": {
+                                    "direction": null,
+                                    "gradient": null
+                                },
+                                "campaign_type": null,
+                                "campaign_type_icon": null,
+                                "campaign_type_slug": "",
+                                "offer_available": "false",
+                                "offer_ent_txt": "",
+                                "offer_entry_text": "",
+                                "text_color": null
+                            },
+                            "discount": {
+                                "mrp": "60",
+                                "d_text": "21% OFF",
+                                "d_avail": "true",
+                                "prim_price": {
+                                    "sp": "47.4",
+                                    "icon": {
+                                        "base_url": null,
+                                        "image": null,
+                                        "format": null
+                                    },
+                                    "desc": "",
+                                    "base_price": "0.39",
+                                    "base_unit": "g"
+                                },
+                                "sec_price": {
+                                    "sp": null,
+                                    "icon": null,
+                                    "desc": null,
+                                    "background": null
+                                },
+                                "offer_entry_text": "",
+                                "offer_available": "false"
+                            },
+                            "promo": null
+                        },
+                        "children": []
+                    }
+                ],
+                "base_img_url": "https://www.bigbasket.com/media/uploads",
+                "isMember": null,
+                "isError": false
+            },
+            "dySectionsData": {
+                "moreInfoAboutProduct": {
+                    "sections": [
+                        {
+                            "section_type": "tag",
+                            "section_id": 13967,
+                            "injection_position": 1,
+                            "section_items_type": "manual",
+                            "internal_name": "tag_widget",
+                            "rendering_id": 0,
+                            "behaviour": 0,
+                            "meta": {
+                                "count": 5,
+                                "source": "pd",
+                                "type": "tag",
+                                "content_provider": "monolith",
+                                "slug": "{{sku_id}}"
+                            },
+                            "title": "You may like to view more in",
+                            "theme_rendering_id": 0
+                        },
+                        {
+                            "section_type": "product_carousel",
+                            "section_id": 13968,
+                            "injection_position": 2,
+                            "section_items_type": "sgpl",
+                            "internal_name": "similar_item",
+                            "rendering_id": 0,
+                            "behaviour": 0,
+                            "meta": {
+                                "count": 5,
+                                "source": "pd",
+                                "type": "similar-items",
+                                "content_provider": "listing-svc",
+                                "slug": "{{sku_id}}"
+                            },
+                            "source": {
+                                "type": "GET",
+                                "param": {
+                                    "page": "1",
+                                    "section_id": 13968,
+                                    "section_type": "product_carousel",
+                                    "section_items_type": "sgpl",
+                                    "device_type": "app-pwa",
+                                    "widget_slug": "pd",
+                                    "widget_type": "pd",
+                                    "position": 2,
+                                    "page_slug": "pd",
+                                    "count": 5,
+                                    "source": "pd",
+                                    "type": "similar-items",
+                                    "content_provider": "listing-svc",
+                                    "slug": "{{sku_id}}"
+                                },
+                                "client_param": [
+                                    "city_id",
+                                    "sa_id",
+                                    "sku_id"
+                                ],
+                                "url": "/custompage/pdgql/",
+                                "ttl": 60
+                            },
+                            "more": {
+                                "destination": {
+                                    "dest_slug": "type=similar_items_view_more\u0026slug={{sku_id}}",
+                                    "dest_type": "product_list"
+                                },
+                                "title": "View more"
+                            },
+                            "title": "Similar Products",
+                            "theme_rendering_id": 0
+                        },
+                        {
+                            "section_type": "product_carousel",
+                            "section_id": 13969,
+                            "injection_position": 3,
+                            "section_items_type": "sgpl",
+                            "internal_name": "fbt_product",
+                            "rendering_id": 0,
+                            "behaviour": 0,
+                            "meta": {
+                                "count": 5,
+                                "source": "pd",
+                                "type": "fbt",
+                                "content_provider": "listing-svc",
+                                "slug": "{{sku_id}}"
+                            },
+                            "source": {
+                                "type": "GET",
+                                "param": {
+                                    "page": "1",
+                                    "section_id": 13969,
+                                    "section_type": "product_carousel",
+                                    "section_items_type": "sgpl",
+                                    "device_type": "app-pwa",
+                                    "widget_slug": "pd",
+                                    "widget_type": "pd",
+                                    "position": 3,
+                                    "page_slug": "pd",
+                                    "count": 5,
+                                    "source": "pd",
+                                    "type": "fbt",
+                                    "content_provider": "listing-svc",
+                                    "slug": "{{sku_id}}"
+                                },
+                                "client_param": [
+                                    "city_id",
+                                    "sa_id",
+                                    "sku_id"
+                                ],
+                                "url": "/custompage/pdgql/",
+                                "ttl": 60
+                            },
+                            "more": {
+                                "destination": {
+                                    "dest_slug": "type=fbt_items_view_more\u0026slug={{sku_id}}",
+                                    "dest_type": "product_list"
+                                },
+                                "title": "View more"
+                            },
+                            "title": "Frequently Bought Together Products",
+                            "theme_rendering_id": 0
+                        },
+                        {
+                            "section_type": "badge",
+                            "section_id": 13970,
+                            "injection_position": 5,
+                            "section_items_type": "sg_brand_badge",
+                            "internal_name": "brand_badge",
+                            "rendering_id": 0,
+                            "behaviour": 0,
+                            "meta": {
+                                "section_width": 400,
+                                "source": "pd",
+                                "type": "brand",
+                                "content_provider": "ui-svc",
+                                "section_height": 600
+                            },
+                            "source": {
+                                "type": "GET",
+                                "param": {
+                                    "section_id": 13970,
+                                    "section_type": "badge",
+                                    "section_items_type": "sg_brand_badge",
+                                    "device_type": "app-pwa",
+                                    "widget_slug": "pd",
+                                    "widget_type": "pd",
+                                    "position": 4,
+                                    "page_slug": "pd",
+                                    "section_width": 400,
+                                    "source": "pd",
+                                    "type": "brand",
+                                    "content_provider": "ui-svc",
+                                    "section_height": 600
+                                },
+                                "client_param": [
+                                    "sku_id"
+                                ],
+                                "url": "/ui-svc/v1/page/dynamic/section/data",
+                                "ttl": 0
+                            },
+                            "more": {},
+                            "theme_rendering_id": 0
+                        },
+                        {
+                            "section_type": "badge",
+                            "section_id": 13971,
+                            "injection_position": 6,
+                            "section_items_type": "sg_category_badge",
+                            "internal_name": "category_badge",
+                            "rendering_id": 0,
+                            "behaviour": 0,
+                            "meta": {
+                                "section_width": 400,
+                                "source": "pd",
+                                "type": "category",
+                                "content_provider": "ui-svc",
+                                "section_height": 600
+                            },
+                            "source": {
+                                "type": "GET",
+                                "param": {
+                                    "section_id": 13971,
+                                    "section_type": "badge",
+                                    "section_items_type": "sg_category_badge",
+                                    "device_type": "app-pwa",
+                                    "widget_slug": "pd",
+                                    "widget_type": "pd",
+                                    "position": 5,
+                                    "page_slug": "pd",
+                                    "section_width": 400,
+                                    "source": "pd",
+                                    "type": "category",
+                                    "content_provider": "ui-svc",
+                                    "section_height": 600
+                                },
+                                "client_param": [
+                                    "sku_id"
+                                ],
+                                "url": "/ui-svc/v1/page/dynamic/section/data",
+                                "ttl": 0
+                            },
+                            "more": {},
+                            "theme_rendering_id": 0
+                        },
+                        {
+                            "section_type": "recipe_carousel",
+                            "section_id": 13972,
+                            "injection_position": 7,
+                            "section_items_type": "sg_recipe",
+                            "internal_name": "recipe_section",
+                            "rendering_id": 0,
+                            "behaviour": 0,
+                            "meta": {
+                                "count": "10",
+                                "content_provider": "monolith",
+                                "source": "pd"
+                            },
+                            "source": {
+                                "type": "GET",
+                                "param": {
+                                    "section_id": 13972,
+                                    "section_type": "recipe_carousel",
+                                    "section_items_type": "sg_recipe",
+                                    "device_type": "app-pwa",
+                                    "widget_slug": "pd",
+                                    "widget_type": "pd",
+                                    "position": 6,
+                                    "page_slug": "pd",
+                                    "count": "10",
+                                    "content_provider": "monolith",
+                                    "source": "pd"
+                                },
+                                "client_param": [
+                                    "ri_id",
+                                    "sku_id",
+                                    "dc_id"
+                                ],
+                                "url": "/api/cookbook/recipes",
+                                "ttl": 0
+                            },
+                            "more": {},
+                            "title": "Recipes",
+                            "description": "Have a look at what you can make with this item",
+                            "theme_rendering_id": 0
+                        }
+                    ],
+                    "renderers": {}
+                },
+                "rnrData": {
+                    "rating_stats": {
+                        "parent_sku_id": 40198332,
+                        "category_id": 1421,
+                        "ratings_count": 3647,
+                        "reviews_count": 76,
+                        "avg_rating": "4.2",
+                        "ratings_count_1": 194,
+                        "ratings_count_2": 223,
+                        "ratings_count_3": 459,
+                        "ratings_count_4": 622,
+                        "ratings_count_5": 2149,
+                        "review_images_count": 0,
+                        "status": 1,
+                        "created_on": "2021-01-12 20:42:04",
+                        "updated_on": "2024-08-31 13:26:50"
+                    },
+                    "feature_stats": [
+                        {
+                            "feature_id": 166,
+                            "feature_title": "Taste",
+                            "answer_type": 1,
+                            "display_type": 1,
+                            "count": 183,
+                            "average": 4.2
+                        }
+                    ],
+                    "top_reviews": [
+                        {
+                            "review_id": 29112410,
+                            "solicitation_id": 1,
+                            "rating": 5,
+                            "review_title": "good packaging ",
+                            "review_description": "very tasty and chocolatey \n",
+                            "parent_sku_id": 40198332,
+                            "sku_id": 40198332,
+                            "category_id": 1421,
+                            "city_id": 24,
+                            "city_name": null,
+                            "likes_count": 0,
+                            "flags_count": 0,
+                            "likes": [],
+                            "flags": [],
+                            "media_ids": [],
+                            "contains_images": false,
+                            "member_id": 1,
+                            "reviewer_name": "Simi Biju",
+                            "submitted_on": "2024-08-20T19:32:32+05:30",
+                            "published_on": "2024-08-27T11:22:04+05:30",
+                            "length_of_review_in_characters": 27,
+                            "no_of_images_present": 0,
+                            "source": "bigbasket"
+                        },
+                        {
+                            "review_id": 28623679,
+                            "solicitation_id": 2,
+                            "rating": 1,
+                            "review_title": "Never Ever Buy It ?????",
+                            "review_description": "Bad Taste, not better than even Britannia simple cake, Total Waste of Money and Mood on the name of Brownie!!!... Don't Recommend Ever!!!",
+                            "parent_sku_id": 40198332,
+                            "sku_id": 40198332,
+                            "category_id": 1421,
+                            "city_id": 18,
+                            "city_name": null,
+                            "likes_count": 0,
+                            "flags_count": 0,
+                            "likes": [],
+                            "flags": [],
+                            "media_ids": [],
+                            "contains_images": false,
+                            "member_id": 2,
+                            "reviewer_name": "Nitin Kumar",
+                            "submitted_on": "2024-07-05T23:59:03+05:30",
+                            "published_on": "2024-07-24T15:06:48+05:30",
+                            "length_of_review_in_characters": 137,
+                            "no_of_images_present": 0,
+                            "source": "bigbasket"
+                        },
+                        {
+                            "review_id": 28020247,
+                            "solicitation_id": 3,
+                            "rating": 4,
+                            "review_title": "",
+                            "review_description": "the brownie gets so fudgy when heated it's great for the price ",
+                            "parent_sku_id": 40198332,
+                            "sku_id": 40198332,
+                            "category_id": 1421,
+                            "city_id": 18,
+                            "city_name": null,
+                            "likes_count": 1,
+                            "flags_count": 0,
+                            "likes": [
+                                59769201
+                            ],
+                            "flags": [],
+                            "media_ids": [],
+                            "contains_images": false,
+                            "member_id": 3,
+                            "reviewer_name": "hanna Mariam",
+                            "submitted_on": "2024-05-14T20:37:56+05:30",
+                            "published_on": "2024-07-26T21:03:39+05:30",
+                            "length_of_review_in_characters": 63,
+                            "no_of_images_present": 0,
+                            "source": "bigbasket"
+                        },
+                        {
+                            "review_id": 28094879,
+                            "solicitation_id": 4,
+                            "rating": 5,
+                            "review_title": "",
+                            "review_description": "omg it was super duper fantastic ? ??",
+                            "parent_sku_id": 40198332,
+                            "sku_id": 40198332,
+                            "category_id": 1421,
+                            "city_id": 3,
+                            "city_name": null,
+                            "likes_count": 2,
+                            "flags_count": 0,
+                            "likes": [
+                                59769201,
+                                54298933
+                            ],
+                            "flags": [],
+                            "media_ids": [],
+                            "contains_images": false,
+                            "member_id": 4,
+                            "reviewer_name": "Bigbasketeer order",
+                            "submitted_on": "2024-05-21T16:55:50+05:30",
+                            "published_on": "2024-08-01T15:50:00+05:30",
+                            "length_of_review_in_characters": 37,
+                            "no_of_images_present": 0,
+                            "source": "bigbasket"
+                        },
+                        {
+                            "review_id": 27463910,
+                            "solicitation_id": 5,
+                            "rating": 3,
+                            "review_title": "45 for 3",
+                            "review_description": "The taste and presentation is good and at rs. 45 for 3 it's a good deal. ",
+                            "parent_sku_id": 40198332,
+                            "sku_id": 40198332,
+                            "category_id": 1421,
+                            "city_id": 1,
+                            "city_name": null,
+                            "likes_count": 0,
+                            "flags_count": 0,
+                            "likes": [],
+                            "flags": [],
+                            "media_ids": [],
+                            "contains_images": false,
+                            "member_id": 5,
+                            "reviewer_name": "Rahim A",
+                            "submitted_on": "2024-03-29T23:11:17+05:30",
+                            "published_on": "2024-07-26T19:57:09+05:30",
+                            "length_of_review_in_characters": 73,
+                            "no_of_images_present": 0,
+                            "source": "bigbasket"
+                        }
+                    ],
+                    "image_reviews": [],
+                    "reviews_total": 76,
+                    "image_reviews_total": 0,
+                    "images_total": 0,
+                    "sorts": [
+                        {
+                            "sort_id": 1,
+                            "display": "Most Helpful",
+                            "key": "likes_count",
+                            "order": "desc"
+                        },
+                        {
+                            "sort_id": 2,
+                            "display": "Most Recent",
+                            "key": "submitted_on",
+                            "order": "desc"
+                        },
+                        {
+                            "sort_id": 3,
+                            "display": "Positive First",
+                            "key": "rating",
+                            "order": "desc"
+                        },
+                        {
+                            "sort_id": 4,
+                            "display": "Negative First",
+                            "key": "rating",
+                            "order": "asc"
+                        }
+                    ]
+                },
+                "seoData": {
+                    "deep_link": [
+                        "android-app://com.bigbasket.mobileapp/bigbasket/product_detail/?40198332",
+                        "ios-app://660683603/bigbasket/product_detail/?40198332"
+                    ],
+                    "related_search": "",
+                    "seo_data": {
+                        "meta_description": "Buy Britannia Fudge It - Chocolate Brownie online at lowest price from bigbasket and get them delivered at your doorstep. Minimum 5% OFF on products. Free delivery, cash on delivery available.",
+                        "meta_keywords": "Buy Britannia Fudge It - Chocolate Brownie online at lowest price from bigbasket and get them delivered at your doorstep. Minimum 5% OFF on products. Free delivery, cash on delivery available.",
+                        "seo_additional_fld2": "",
+                        "seo_additional_fld1": "",
+                        "page_title": "Buy Britannia Fudge It - Chocolate Brownie Online at Best Price"
+                    },
+                    "httpStatus": "200",
+                    "xTracker": "Root=1-66d2f024-79652890307f2187429d5a64"
+                },
+                "fbt": {
+                    "paginationConfig": {
+                        "numberOfPages": null,
+                        "totalNumberOfItems": null,
+                        "page": null
+                    },
+                    "deckDetails": {
+                        "baseImageUrl": null,
+                        "deckTitle": null,
+                        "deckDesc": null
+                    }
+                },
+                "sml": {
+                    "tabs": [
+                        {
+                            "tabTitle": "all",
+                            "tabSlug": "40198332",
+                            "tabType": "all",
+                            "tabDescription": null,
+                            "type": "similar-items",
+                            "numberOfPages": 1,
+                            "page": 1,
+                            "totalCount": 1,
+                            "products": [
+                                {
+                                    "additional_info": {},
+                                    "additionalAttributes": {
+                                        "info": [
+                                            {
+                                                "type": "food_type",
+                                                "label": "non-veg",
+                                                "sub_type": "non-veg"
+                                            }
+                                        ]
+                                    },
+                                    "absoluteUrl": "/pd/40204406/britannia-chocolate-brownie-40-g/",
+                                    "offer": null,
+                                    "offer_callback": null,
+                                    "aplusUrl": null,
+                                    "availability": {
+                                        "avail_status": "001",
+                                        "display_mrp": true,
+                                        "display_sp": true,
+                                        "not_for_sale": false,
+                                        "button": "Add",
+                                        "show_express": false
+                                    },
+                                    "brand": {
+                                        "name": "Britannia",
+                                        "slug": "britannia",
+                                        "url": "/pb/britannia/"
+                                    },
+                                    "usp": null,
+                                    "breadcrumb": null,
+                                    "quantity": null,
+                                    "category": {
+                                        "tlc_name": "Bakery, Cakes \u0026 Dairy",
+                                        "tlc_slug": "bakery-cakes-dairy",
+                                        "mlc_name": "Cakes \u0026 Pastries",
+                                        "mlc_slug": "cakes-pastries",
+                                        "mlc_id": 1416,
+                                        "llc_name": "Tea Cakes \u0026 Slice Cakes",
+                                        "llc_slug": "type=pc\u0026slug=tea-cakes-slice-cakes",
+                                        "llc_id": 1421
+                                    },
+                                    "combo": null,
+                                    "description": "Fudge It Brownie - Chocolate",
+                                    "id": 40204406,
+                                    "images": [
+                                        {
+                                            "imgS": "https://www.bigbasket.com/media/uploads/p/s/40204406_1-britannia-chocolate-brownie.jpg",
+                                            "imgM": "https://www.bigbasket.com/media/uploads/p/m/40204406_1-britannia-chocolate-brownie.jpg",
+                                            "imgL": "https://www.bigbasket.com/media/uploads/p/l/40204406_1-britannia-chocolate-brownie.jpg"
+                                        },
+                                        {
+                                            "imgS": "https://www.bigbasket.com/media/uploads/p/s/40204406-2_1-britannia-chocolate-brownie.jpg",
+                                            "imgM": "https://www.bigbasket.com/media/uploads/p/m/40204406-2_1-britannia-chocolate-brownie.jpg",
+                                            "imgL": "https://www.bigbasket.com/media/uploads/p/l/40204406-2_1-britannia-chocolate-brownie.jpg"
+                                        },
+                                        {
+                                            "imgS": "https://www.bigbasket.com/media/uploads/p/s/40204406-3_1-britannia-chocolate-brownie.jpg",
+                                            "imgM": "https://www.bigbasket.com/media/uploads/p/m/40204406-3_1-britannia-chocolate-brownie.jpg",
+                                            "imgL": "https://www.bigbasket.com/media/uploads/p/l/40204406-3_1-britannia-chocolate-brownie.jpg"
+                                        },
+                                        {
+                                            "imgS": "https://www.bigbasket.com/media/uploads/p/s/40204406-4_1-britannia-chocolate-brownie.jpg",
+                                            "imgM": "https://www.bigbasket.com/media/uploads/p/m/40204406-4_1-britannia-chocolate-brownie.jpg",
+                                            "imgL": "https://www.bigbasket.com/media/uploads/p/l/40204406-4_1-britannia-chocolate-brownie.jpg"
+                                        },
+                                        {
+                                            "imgS": "https://www.bigbasket.com/media/uploads/p/s/40204406-5_1-britannia-chocolate-brownie.jpg",
+                                            "imgM": "https://www.bigbasket.com/media/uploads/p/m/40204406-5_1-britannia-chocolate-brownie.jpg",
+                                            "imgL": "https://www.bigbasket.com/media/uploads/p/l/40204406-5_1-britannia-chocolate-brownie.jpg"
+                                        }
+                                    ],
+                                    "packDesc": null,
+                                    "pricing": {
+                                        "discount": {
+                                            "mrp": "20",
+                                            "mrp_per_pack": null,
+                                            "d_text": null,
+                                            "d_avail": "false",
+                                            "prim_price": {
+                                                "sp": "20",
+                                                "sp_per_pack": null,
+                                                "icon": {
+                                                    "base_url": null,
+                                                    "image": null,
+                                                    "format": null
+                                                },
+                                                "desc": "",
+                                                "base_price": "0.5",
+                                                "base_unit": "g"
+                                            },
+                                            "sec_price": {
+                                                "sp": null,
+                                                "icon": null,
+                                                "desc": null,
+                                                "background": null
+                                            },
+                                            "subscription_price": "20",
+                                            "camp_detail": {
+                                                "c": [],
+                                                "c_f": 0,
+                                                "d_t": "",
+                                                "d_v": 0,
+                                                "dual_pricing": false,
+                                                "invoiced": {},
+                                                "m_f": 0,
+                                                "narq": 9999999,
+                                                "r_c": [],
+                                                "v_f": 0
+                                            },
+                                            "offer_entry_text": "",
+                                            "offer_available": "false"
+                                        },
+                                        "promo": null,
+                                        "subscribe": {
+                                            "desc": null,
+                                            "desc_label": null,
+                                            "subs_c": [],
+                                            "subs_sp": null
+                                        },
+                                        "offer": {
+                                            "arrow_image": null,
+                                            "background": {
+                                                "direction": null,
+                                                "gradient": null
+                                            },
+                                            "background_border": {
+                                                "direction": null,
+                                                "gradient": null
+                                            },
+                                            "campaign_type": null,
+                                            "campaign_type_icon": null,
+                                            "campaign_type_slug": "",
+                                            "offer_available": "false",
+                                            "offer_ent_txt": "",
+                                            "offer_entry_text": "",
+                                            "text_color": null
+                                        }
+                                    },
+                                    "ratingInfo": {
+                                        "avg_rating": "4.2",
+                                        "rating_count": 1430,
+                                        "review_count": 31,
+                                        "sku_id": 40204406
+                                    },
+                                    "saCityId": null,
+                                    "tabs": null,
+                                    "tags": null,
+                                    "variableWeight": null,
+                                    "visibility": {
+                                        "path_id": 1829,
+                                        "fc_id": 704,
+                                        "sa_id": 10654
+                                    },
+                                    "weight": "40 g",
+                                    "mrp": null,
+                                    "sp": null,
+                                    "skuType": null,
+                                    "img": null,
+                                    "promo_info": null,
+                                    "itemInfo": null,
+                                    "saving": null,
+                                    "can_edit": null,
+                                    "can_exchange": null,
+                                    "display_message": null,
+                                    "llc_n": null,
+                                    "tlc_n": null,
+                                    "total": null,
+                                    "offer_msg1": null,
+                                    "offer_msg2": null,
+                                    "foodType": {
+                                        "type": "food_type",
+                                        "label": "non-veg",
+                                        "sub_type": "non-veg"
+                                    },
+                                    "sort_index_pos": null
+                                }
+                            ]
+                        }
+                    ],
+                    "paginationConfig": {
+                        "numberOfPages": 1,
+                        "totalNumberOfItems": 1,
+                        "page": 1
+                    },
+                    "deckDetails": {
+                        "baseImageUrl": "https://www.bigbasket.com/media/uploads",
+                        "deckTitle": "Similar Products",
+                        "deckDesc": null
+                    }
+                }
+            },
+            "sectionInfo": {
+                "status": "fulfilled",
+                "value": {
+                    "sections": [
+                        {
+                            "section_type": "tag",
+                            "section_id": 13967,
+                            "injection_position": 1,
+                            "section_items_type": "manual",
+                            "internal_name": "tag_widget",
+                            "rendering_id": 0,
+                            "behaviour": 0,
+                            "meta": {
+                                "count": 5,
+                                "source": "pd",
+                                "type": "tag",
+                                "content_provider": "monolith",
+                                "slug": "{{sku_id}}"
+                            },
+                            "title": "You may like to view more in",
+                            "theme_rendering_id": 0
+                        },
+                        {
+                            "section_type": "product_carousel",
+                            "section_id": 13968,
+                            "injection_position": 2,
+                            "section_items_type": "sgpl",
+                            "internal_name": "similar_item",
+                            "rendering_id": 0,
+                            "behaviour": 0,
+                            "meta": {
+                                "count": 5,
+                                "source": "pd",
+                                "type": "similar-items",
+                                "content_provider": "listing-svc",
+                                "slug": "{{sku_id}}"
+                            },
+                            "source": {
+                                "type": "GET",
+                                "param": {
+                                    "page": "1",
+                                    "section_id": 13968,
+                                    "section_type": "product_carousel",
+                                    "section_items_type": "sgpl",
+                                    "device_type": "app-pwa",
+                                    "widget_slug": "pd",
+                                    "widget_type": "pd",
+                                    "position": 2,
+                                    "page_slug": "pd",
+                                    "count": 5,
+                                    "source": "pd",
+                                    "type": "similar-items",
+                                    "content_provider": "listing-svc",
+                                    "slug": "{{sku_id}}"
+                                },
+                                "client_param": [
+                                    "city_id",
+                                    "sa_id",
+                                    "sku_id"
+                                ],
+                                "url": "/custompage/pdgql/",
+                                "ttl": 60
+                            },
+                            "more": {
+                                "destination": {
+                                    "dest_slug": "type=similar_items_view_more\u0026slug={{sku_id}}",
+                                    "dest_type": "product_list"
+                                },
+                                "title": "View more"
+                            },
+                            "title": "Similar Products",
+                            "theme_rendering_id": 0
+                        },
+                        {
+                            "section_type": "product_carousel",
+                            "section_id": 13969,
+                            "injection_position": 3,
+                            "section_items_type": "sgpl",
+                            "internal_name": "fbt_product",
+                            "rendering_id": 0,
+                            "behaviour": 0,
+                            "meta": {
+                                "count": 5,
+                                "source": "pd",
+                                "type": "fbt",
+                                "content_provider": "listing-svc",
+                                "slug": "{{sku_id}}"
+                            },
+                            "source": {
+                                "type": "GET",
+                                "param": {
+                                    "page": "1",
+                                    "section_id": 13969,
+                                    "section_type": "product_carousel",
+                                    "section_items_type": "sgpl",
+                                    "device_type": "app-pwa",
+                                    "widget_slug": "pd",
+                                    "widget_type": "pd",
+                                    "position": 3,
+                                    "page_slug": "pd",
+                                    "count": 5,
+                                    "source": "pd",
+                                    "type": "fbt",
+                                    "content_provider": "listing-svc",
+                                    "slug": "{{sku_id}}"
+                                },
+                                "client_param": [
+                                    "city_id",
+                                    "sa_id",
+                                    "sku_id"
+                                ],
+                                "url": "/custompage/pdgql/",
+                                "ttl": 60
+                            },
+                            "more": {
+                                "destination": {
+                                    "dest_slug": "type=fbt_items_view_more\u0026slug={{sku_id}}",
+                                    "dest_type": "product_list"
+                                },
+                                "title": "View more"
+                            },
+                            "title": "Frequently Bought Together Products",
+                            "theme_rendering_id": 0
+                        },
+                        {
+                            "section_type": "badge",
+                            "section_id": 13970,
+                            "injection_position": 5,
+                            "section_items_type": "sg_brand_badge",
+                            "internal_name": "brand_badge",
+                            "rendering_id": 0,
+                            "behaviour": 0,
+                            "meta": {
+                                "section_width": 400,
+                                "source": "pd",
+                                "type": "brand",
+                                "content_provider": "ui-svc",
+                                "section_height": 600
+                            },
+                            "source": {
+                                "type": "GET",
+                                "param": {
+                                    "section_id": 13970,
+                                    "section_type": "badge",
+                                    "section_items_type": "sg_brand_badge",
+                                    "device_type": "app-pwa",
+                                    "widget_slug": "pd",
+                                    "widget_type": "pd",
+                                    "position": 4,
+                                    "page_slug": "pd",
+                                    "section_width": 400,
+                                    "source": "pd",
+                                    "type": "brand",
+                                    "content_provider": "ui-svc",
+                                    "section_height": 600
+                                },
+                                "client_param": [
+                                    "sku_id"
+                                ],
+                                "url": "/ui-svc/v1/page/dynamic/section/data",
+                                "ttl": 0
+                            },
+                            "more": {},
+                            "theme_rendering_id": 0
+                        },
+                        {
+                            "section_type": "badge",
+                            "section_id": 13971,
+                            "injection_position": 6,
+                            "section_items_type": "sg_category_badge",
+                            "internal_name": "category_badge",
+                            "rendering_id": 0,
+                            "behaviour": 0,
+                            "meta": {
+                                "section_width": 400,
+                                "source": "pd",
+                                "type": "category",
+                                "content_provider": "ui-svc",
+                                "section_height": 600
+                            },
+                            "source": {
+                                "type": "GET",
+                                "param": {
+                                    "section_id": 13971,
+                                    "section_type": "badge",
+                                    "section_items_type": "sg_category_badge",
+                                    "device_type": "app-pwa",
+                                    "widget_slug": "pd",
+                                    "widget_type": "pd",
+                                    "position": 5,
+                                    "page_slug": "pd",
+                                    "section_width": 400,
+                                    "source": "pd",
+                                    "type": "category",
+                                    "content_provider": "ui-svc",
+                                    "section_height": 600
+                                },
+                                "client_param": [
+                                    "sku_id"
+                                ],
+                                "url": "/ui-svc/v1/page/dynamic/section/data",
+                                "ttl": 0
+                            },
+                            "more": {},
+                            "theme_rendering_id": 0
+                        },
+                        {
+                            "section_type": "recipe_carousel",
+                            "section_id": 13972,
+                            "injection_position": 7,
+                            "section_items_type": "sg_recipe",
+                            "internal_name": "recipe_section",
+                            "rendering_id": 0,
+                            "behaviour": 0,
+                            "meta": {
+                                "count": "10",
+                                "content_provider": "monolith",
+                                "source": "pd"
+                            },
+                            "source": {
+                                "type": "GET",
+                                "param": {
+                                    "section_id": 13972,
+                                    "section_type": "recipe_carousel",
+                                    "section_items_type": "sg_recipe",
+                                    "device_type": "app-pwa",
+                                    "widget_slug": "pd",
+                                    "widget_type": "pd",
+                                    "position": 6,
+                                    "page_slug": "pd",
+                                    "count": "10",
+                                    "content_provider": "monolith",
+                                    "source": "pd"
+                                },
+                                "client_param": [
+                                    "ri_id",
+                                    "sku_id",
+                                    "dc_id"
+                                ],
+                                "url": "/api/cookbook/recipes",
+                                "ttl": 0
+                            },
+                            "more": {},
+                            "title": "Recipes",
+                            "description": "Have a look at what you can make with this item",
+                            "theme_rendering_id": 0
+                        }
+                    ],
+                    "renderers": {}
+                }
+            }
+        },
+        "visitorCookies": {
+            "_bb_aid": "MzA4NTgxODk5Nw==",
+            "_bb_cid": "1",
+            "_bb_vid": "MzUyODcyOTczOTA0NzAzOTgy",
+            "_bb_nhid": 1723,
+            "_bb_dsid": "",
+            "_bb_dsevid": "",
+            "_bb_bhid": "",
+            "_bb_loid": "",
+            "csrftoken": "LaJbs7U8MQvo80WNizCbdCUOpaFrLi3UYjPFodTi10DwlzKoO6TMVGJIkb8JgtIl"
+        },
+        "requestHeaders": {
+            "bb-decoded-aid": "204329115",
+            "bb-decoded-vid": "352872971677531392",
+            "channeltype": "BB-WEB",
+            "city_id": "1",
+            "original-host": "www.bigbasket.com",
+            "x-tracker": "Root=1-66d2f024-79652890307f2187429d5a64",
+            "x-timestamp": "2024-08-31T10:27:48.107701Z",
+            "x-tcp-client-id": "BIGBASKET-WEB-DESKTOP-APP",
+            "x-real-ip": "172.16.150.134",
+            "x-forwarded-server": "prod-eks-msvcs-proxy-c4f99d769-kn8sk",
+            "x-forwarded-proto": "http",
+            "x-forwarded-port": "80",
+            "x-forwarded-host": "www.bigbasket.com",
+            "x-entry-context-id": "100",
+            "x-entry-context": "bb-b2c",
+            "x-caller": "DVAR-SVC",
+            "x-amzn-trace-id": "Self=1-66d2f024-04a1dc9e01a851ed468ba09b;Root=1-66d2f024-79652890307f2187429d5a64",
+            "x-akamai-config-log-detail": "true",
+            "via": "1.1 v1-akamaitech.net(ghost) (AkamaiGHost), 1.1 akamai.net(ghost) (AkamaiGHost)",
+            "upgrade-insecure-requests": "1",
+            "true-client-ip": "78.190.13.194",
+            "sec-fetch-user": "?1",
+            "sec-fetch-site": "none",
+            "sec-fetch-mode": "navigate",
+            "sec-fetch-dest": "document",
+            "sec-ch-ua-platform": "\"macOS\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+            "referer": "https://www.bigbasket.com/pd/40198332/britannia-fudge-it-chocolate-brownie-120-g/?nc=cl-prod-list\u0026t_pos_sec=1\u0026t_pos_item=1\u0026t_s=Fudge+It+-+Chocolate+Brownie",
+            "priority": "u=0, i",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, max-age=0",
+            "bb-is-bot": "0",
+            "bb-channel-type": "bb-fe",
+            "bb-bot-type": "others",
+            "akamai-origin-hop": "2",
+            "accept-language": "en-US,en;q=0.9",
+            "accept-encoding": "gzip,br",
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "x-forwarded-for": "172.16.150.134, 172.16.153.165",
+            "host": "localhost:3000",
+            "connection": "upgrade",
+            "x-queue-start": "t=1725100068.108",
+            "x-request-start": "t=1725100068.108"
+        },
+        "shopByCatProps": null,
+        "__N_SSP": true
+    },
+    "page": "/pd/[...params]",
+    "query": {
+        "nc": "cl-prod-list",
+        "t_pos_sec": "1",
+        "t_pos_item": "1",
+        "t_s": "Fudge It - Chocolate Brownie",
+        "params": [
+            "40198332",
+            "britannia-fudge-it-chocolate-brownie-120-g"
+        ]
+    },
+    "buildId": "o8x1Hv0tB5zwnVCObTwLi",
+    "assetPrefix": "https://www.bbassets.com/monsters-inc/static",
+    "isFallback": false,
+    "dynamicIds": [
+        95486,
+        93943,
+        65244,
+        15230,
+        17707,
+        52642,
+        45035,
+        70493,
+        11667,
+        43169,
+        14579,
+        80844,
+        1096
+    ],
+    "gssp": true,
+    "appGip": true,
+    "scriptLoader": [
+        {
+            "id": "geminiScript",
+            "strategy": "afterInteractive",
+            "dangerouslySetInnerHTML": {
+                "__html": "\nci = \"0002325\",\ngemErrList = [],\ngemp = \"index\",\nwindow.addEventListener(\"error\", function(r) {\nif (r.error) {\nvar e = {};\ntry {\ne.m = r.message,\ne.f=r.filename.replace(/(\r\n|\n|\r)/gm,\"\"),\ne.l = r.lineno,\ne.c = r.colno,\ne.s = r.error.stack,\ngemErrList.push(e)\n} catch (r) {}\n}\n});\n(function () {\nvar geminiJs = document.createElement('script');\ngeminiJs.type = 'text/javascript';\ngeminiJs.async = true;\ngeminiJs.src = ('https:' == document.location.protocol ? 'https://cdn.epsilondelta.co/static/gemGen.js' :\n'https://cdn.epsilondelta.co/static/gemGen.js');\nvar s1 = document.getElementsByTagName('script')[0];\ns1.parentNode.insertBefore(geminiJs, s1);\nwindow.gemOption = \"NextJS\";\n})();\n"
+            }
+        }
+    ]
+}
