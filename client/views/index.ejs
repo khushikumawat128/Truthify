@@ -1,0 +1,488 @@
+
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Welcome to Our App</title>
+     <link rel="stylesheet" href="/main.css">
+     <style>
+         /* General Styling */
+         * {
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             font-family: 'Poppins', sans-serif;
+         }
+ 
+         body {
+             background: linear-gradient(45deg, #e0f7e0, #c8f0c8);
+             color: white;
+             height: 100vh;
+             overflow: hidden;
+             position: relative;
+             transition: background 0.3s;
+         }
+ 
+         /* Navbar */
+         .navbar {
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             padding: 20px;
+             background-color: rgba(0, 100, 0, 0.7); 
+         }
+ 
+         .navbar a {
+             color: white;
+             text-decoration: none;
+             margin: 0 15px;
+             font-size: 1.2rem;
+             transition: color 0.3s;
+         }
+ 
+         .navbar a:hover {
+             color: #66bb6a; 
+         }
+ 
+    
+         .main-content {
+             text-align: center;
+             padding: 100px 20px;
+         }
+ 
+         .main-content h1 {
+             font-size: 3rem;
+             margin-bottom: 20px;
+             animation: fadeIn 1.5s ease-in-out;
+         }
+ 
+         .main-content p {
+             font-size: 1.3rem;
+             max-width: 600px;
+             margin: 0 auto;
+             line-height: 1.8;
+             animation: fadeIn 2s ease-in-out;
+         }
+ 
+         .modal {
+             display: none;
+             position: fixed;
+             z-index: 100;
+             left: 0;
+             top: 0;
+             width: 100%;
+             height: 100%;
+             background-color: rgba(0, 0, 0, 0.7);
+             justify-content: center;
+             align-items: center;
+         }
+ 
+         .modal-content {
+             background-color: rgba(240, 255, 240, 0.95); /* Light mint green */
+             padding: 40px;
+             border-radius: 15px;
+             box-shadow: 0 4px 8px rgba(0, 100, 0, 0.2); /* Green shadow */
+             width: 100%;
+             max-width: 400px;
+             text-align: center;
+             animation: fadeIn 1.5s ease-in-out;
+         }
+ 
+         .modal-content h1 {
+             font-size: 2rem;
+             color: #388e3c; /* Dark green */
+             margin-bottom: 20px;
+         }
+ 
+         .modal-content input[type="email"],
+         .modal-content input[type="password"],
+         .modal-content input[type="text"] {
+             width: 100%;
+             padding: 10px;
+             margin-bottom: 20px;
+             border: 2px solid #a5d6a7; /* Light green */
+             border-radius: 8px;
+             background-color: #f9f9f9;
+         }
+ 
+         .modal-content button {
+             width: 100%;
+             padding: 10px;
+             background-color: #388e3c;
+             color: rgb(255, 255, 255);
+             border: none;
+             border-radius: 5px;
+             cursor: pointer;
+         }
+ 
+         .modal-content button:hover {
+             background-color: #66bb6a;
+         }
+ 
+         .close {
+             position: absolute;
+             top: 10px;
+             right: 20px;
+             font-size: 1.5rem;
+             cursor: pointer;
+             color: white;
+         }
+ 
+         @keyframes fadeIn {
+             from {
+                 opacity: 0;
+             }
+             to {
+                 opacity: 1;
+             }
+         }
+ 
+     </style>
+ </head>
+ <body>
+
+     <nav class="navbar">
+         <div>
+             <a href="/">Home</a>
+             <a href="#">Products</a>
+         </div>
+         <div>
+             <a href="#" onclick="openLoginModal()">Login</a>
+             <a href="#" onclick="openRegisterModal()">Register</a>
+         </div>
+     </nav>
+
+    <div class="main-content">
+        <div>
+            <h1>Welcome to Truthify</h1>
+            <p>
+                Discover the truth behind every product. With Truthify, you can effortlessly explore product ingredients and verify if the claims made by brands are accurate. We provide you with clear, reliable, and data-driven insights so you can make informed decisions with confidence.
+                Join us and ensure that the products you choose are transparent and trustworthy.
+            </p>
+        </div>
+    </div>
+    
+     <div id="loginModal" class="modal">
+         <div class="modal-content">
+             <span class="close" onclick="closeModal('loginModal')">&times;</span>
+             <h1 class="login">Login</h1>
+             <form action="/loginpage" method="POST">
+                 <input type="email" id="email" name="email" placeholder="Email" required>
+                 <input type="password" id="password" name="password" placeholder="Password" required>
+                 <button type="submit" class="loginbutton">Login</button>
+             </form>
+         </div>
+     </div>
+ 
+     <div id="registerModal" class="modal">
+         <div class="modal-content">
+             <span class="close" onclick="closeModal('registerModal')">&times;</span>
+             <h1 class="register">Register</h1>
+             <form action="/register" method="POST" onsubmit="return validateForm()">
+                 <input type="text" id="username" name="username" placeholder="Username" pattern="^[a-zA-Z0-9_]{3,15}$" title="Username must be 3-15 characters long and can contain letters, numbers, and underscores." required>
+                 <input type="email" id="email" name="email" placeholder="Email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="Enter a valid email address." required>
+                 <input type="password" id="password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must be at least 8 characters long and include at least one lowercase letter, one uppercase letter, and one digit." required>
+                 <button type="submit">Register</button>
+             </form>
+         </div>
+     </div>
+ 
+     <script>
+         function openLoginModal() {
+             document.getElementById('loginModal').style.display = 'flex';
+         }
+ 
+         function openRegisterModal() {
+             document.getElementById('registerModal').style.display = 'flex';
+         }
+ 
+         function closeModal(modalId) {
+             document.getElementById(modalId).style.display = 'none';
+         }
+ 
+         window.onclick = function(event) {
+             const loginModal = document.getElementById('loginModal');
+             const registerModal = document.getElementById('registerModal');
+             if (event.target == loginModal || event.target == registerModal) {
+                 loginModal.style.display = 'none';
+                 registerModal.style.display = 'none';
+             }
+         }
+         document.body.addEventListener('mousemove', function(e) {
+             const x = e.clientX / window.innerWidth * 100;
+             const y = e.clientY / window.innerHeight * 100;
+             document.body.style.background = `radial-gradient(circle at ${x}% ${y}%, #e0f7e0, #c8f0c8)`;
+         });
+     </script>
+     
+ </body>
+ </html>
+  -->
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Welcome to Truthify</title>
+      <link rel="stylesheet" href="/main.css">
+      <style>
+          /* General Styling */
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+              font-family: 'Poppins', sans-serif;
+          }
+  
+          body {
+              background: linear-gradient(45deg, #e0f7e0, #c8f0c8);
+              color: white;
+              height: 100vh;
+              overflow: hidden;
+              position: relative;
+          }
+  
+          /* Canvas Styling */
+          #threeJsCanvas {
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              z-index: -1;
+          }
+  
+          /* Navbar */
+          .navbar {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding: 20px;
+              background-color: rgba(0, 100, 0, 0.7);
+              position: relative;
+              z-index: 10;
+          }
+  
+          .navbar a {
+              color: white;
+              text-decoration: none;
+              margin: 0 15px;
+              font-size: 1.2rem;
+              transition: color 0.3s;
+          }
+  
+          .navbar a:hover {
+              color: #66bb6a;
+          }
+  
+          /* Main Content */
+          .main-content {
+              text-align: center;
+              padding: 100px 20px;
+              position: relative;
+              z-index: 10;
+          }
+  
+          .main-content h1 {
+              font-size: 3rem;
+              margin-bottom: 20px;
+              animation: fadeIn 1.5s ease-in-out;
+          }
+  
+          .main-content p {
+              font-size: 1.3rem;
+              max-width: 600px;
+              margin: 0 auto;
+              line-height: 1.8;
+              animation: fadeIn 2s ease-in-out;
+          }
+  
+          
+          .modal {
+              display: none;
+              position: fixed;
+              z-index: 100;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              background-color: rgba(0, 0, 0, 0.7);
+              justify-content: center;
+              align-items: center;
+          }
+  
+          .modal-content {
+              background-color: rgba(240, 255, 240, 0.95);
+              padding: 40px;
+              border-radius: 15px;
+              box-shadow: 0 4px 8px rgba(0, 100, 0, 0.2);
+              width: 100%;
+              max-width: 400px;
+              text-align: center;
+              animation: fadeIn 1.5s ease-in-out;
+          }
+  
+          .modal-content h1 {
+              font-size: 2rem;
+              color: #388e3c;
+              margin-bottom: 20px;
+          }
+  
+          .modal-content input[type="email"],
+          .modal-content input[type="password"],
+          .modal-content input[type="text"] {
+              width: 100%;
+              padding: 10px;
+              margin-bottom: 20px;
+              border: 2px solid #a5d6a7;
+              border-radius: 8px;
+              background-color: #f9f9f9;
+          }
+  
+          .modal-content button {
+              width: 100%;
+              padding: 10px;
+              background-color: #388e3c;
+              color: rgb(255, 255, 255);
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+          }
+  
+          .modal-content button:hover {
+              background-color: #66bb6a;
+          }
+  
+          .close {
+              position: absolute;
+              top: 10px;
+              right: 20px;
+              font-size: 1.5rem;
+              cursor: pointer;
+              color: white;
+          }
+  
+          @keyframes fadeIn {
+              from { opacity: 0; }
+              to { opacity: 1; }
+          }
+      </style>
+  </head>
+  <body>
+      <canvas id="threeJsCanvas"></canvas>
+  
+      <nav class="navbar">
+          <div>
+              <a href="/">Home</a>
+              <a href="#">Products</a>
+          </div>
+          <div>
+              <a href="#" onclick="openLoginModal()">Login</a>
+              <a href="#" onclick="openRegisterModal()">Register</a>
+          </div>
+      </nav>
+  
+      <div class="main-content">
+          <div>
+              <h1>Welcome to Truthify</h1>
+              <p>
+                  Discover the truth behind every product. With Truthify, you can effortlessly explore product ingredients and verify if the claims made by brands are accurate. We provide you with clear, reliable, and data-driven insights so you can make informed decisions with confidence.
+                  Join us and ensure that the products you choose are transparent and trustworthy.
+              </p>
+          </div>
+      </div>
+      
+      
+      <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('loginModal')">&times;</span>
+            <h1 class="login">Login</h1>
+            <form action="/loginpage" method="POST">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <button type="submit" class="loginbutton">Login</button>
+            </form>
+        </div>
+      </div>
+  
+      <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('registerModal')">&times;</span>
+            <h1 class="register">Register</h1>
+            <form action="/register" method="POST" onsubmit="return validateForm()">
+                <input type="text" id="username" name="username" placeholder="Username" pattern="^[a-zA-Z0-9_]{3,15}$" title="Username must be 3-15 characters long and can contain letters, numbers, and underscores." required>
+                <input type="email" id="email" name="email" placeholder="Email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="Enter a valid email address." required>
+                <input type="password" id="password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must be at least 8 characters long and include at least one lowercase letter, one uppercase letter, and one digit." required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+      </div>
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+      <script>
+          const scene = new THREE.Scene();
+          const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+          const renderer = new THREE.WebGLRenderer({
+              canvas: document.getElementById('threeJsCanvas'),
+              alpha: true
+          });
+          renderer.setSize(window.innerWidth, window.innerHeight);
+
+          const particlesGeometry = new THREE.BufferGeometry();
+          const particlesCount = 5000;
+          const posArray = new Float32Array(particlesCount * 3);
+  
+          for (let i = 0; i < particlesCount * 3; i++) {
+              posArray[i] = (Math.random() - 0.5) * 5;
+          }
+  
+          particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
+  
+          const particlesMaterial = new THREE.PointsMaterial({
+              size: 0.005,
+              color: 0x66bb6a
+          });
+  
+          const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
+          scene.add(particlesMesh);
+  
+          camera.position.z = 3;
+
+          function animate() {
+              requestAnimationFrame(animate);
+              particlesMesh.rotation.y += 0.001;
+              renderer.render(scene, camera);
+          }
+          animate();
+
+          window.addEventListener('resize', () => {
+              camera.aspect = window.innerWidth / window.innerHeight;
+              camera.updateProjectionMatrix();
+              renderer.setSize(window.innerWidth, window.innerHeight);
+          });
+
+          function openLoginModal() {
+              document.getElementById('loginModal').style.display = 'flex';
+          }
+  
+          function openRegisterModal() {
+              document.getElementById('registerModal').style.display = 'flex';
+          }
+  
+          function closeModal(modalId) {
+              document.getElementById(modalId).style.display = 'none';
+          }
+  
+          window.onclick = function(event) {
+              const loginModal = document.getElementById('loginModal');
+              const registerModal = document.getElementById('registerModal');
+              if (event.target == loginModal || event.target == registerModal) {
+                  loginModal.style.display = 'none';
+                  registerModal.style.display = 'none';
+              }
+          }
+      </script>
+  </body>
+  </html>

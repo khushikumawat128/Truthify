@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Product Label Scanner</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url('/images/bg4.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            animation: backgroundShift 45s infinite alternate;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(34, 139, 34, 0.8); 
+            color: white;
+            border-bottom: 2px solid #66bb6a;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .navbar a {
+            color: #e8f5e9;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #c5e1a5;
+        }
+        .main-content {
+            padding: 60px;
+            padding-bottom: 120px; 
+            text-align: center;
+            background-color: rgba(240, 255, 240, 0.8); 
+            border-radius: 15px;
+            margin: 40px auto;
+            width: 70%;
+            box-shadow: 0 4px 8px rgba(0, 100, 0, 0.2);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .upload-section {
+            margin-bottom: 30px;
+        }
+
+        .upload-area {
+            border: 2px dashed #a5d6a7;
+            padding: 30px;
+            margin: 20px auto;
+            width: 300px;
+            cursor: pointer;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 100, 0, 0.1);
+        }
+
+        .upload-label {
+            display: block;
+            margin-top: 10px;
+            color: #388e3c; 
+        }
+
+        .file-uploaded {
+            margin-top: 10px;
+            color: #388e3c;
+            font-weight: bold;
+            display: none;
+        }
+
+        .results-section {
+            margin-top: 30px;
+        }
+
+        .product-details {
+            border: 1px solid #a5d6a7;
+            padding: 20px;
+            background-color: #e8f5e9;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 100, 0, 0.1);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(34, 139, 34, 0.8);
+            color: #e8f5e9;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+
+
+        .claim-section {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        #claimInput {
+            width: 70%;
+            height: 80px;
+            padding: 10px;
+            border: 2px solid #a5d6a7;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            font-size: 16px;
+            color: #388e3c;
+            box-shadow: 0 2px 4px rgba(0, 100, 0, 0.1);
+            transition: border-color 0.3s;
+        }
+
+        #claimInput:focus {
+            border-color: #66bb6a;
+            outline: none;
+        }
+
+        .claim-button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #388e3c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        .claim-button:hover {
+            background-color: #66bb6a;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes backgroundShift {
+            0% {
+                background-position: center;
+                background-size: cover;
+            }
+            50% {
+                background-position: top right;
+                background-size: cover;
+            }
+            100% {
+                background-position: bottom left;
+                background-size: cover;
+            }
+        }
+
+        .lower-section {
+            margin-top: 30px;
+        }
+
+        .searches-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .card {
+            background: linear-gradient(135deg, #66bb6a, #a5d6a7);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: calc(33.33% - 20px);
+            min-width: 200px;
+            color: white;
+            transition: transform 0.3s ease, background-color 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            background: linear-gradient(135deg, #388e3c, #66bb6a);
+        }
+
+        strong {
+            font-weight: 600;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .no-searches {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #888;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Food Product Scanner</div>
+        <div class="navbar">
+            <a href="/homepage">Home</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1>Scan Your Food Product</h1>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <div class="upload-section">
+                <div class="upload-area">
+                    <input type="file" name="image" id="image" accept="image/*" hidden><br>
+                    <label for="image" class="upload-label">Click to upload an image of the product label</label>
+                    <p class="file-uploaded" id="file-uploaded">File uploaded: <span id="file-name"></span></p>
+                </div>
+            </div>
+
+            <div class="claim-section">
+                <label for="claim" class="upload-label">Claim:</label>
+                <input type="text" name="claim" id="claim"><br>
+                <button class="claim-button" type = "submit">Submit Claim</button>
+            </div>
+        </form>
+
+        <div class="lower-section">
+            <h2>Previous Searches</h2>
+            <% if (searches.length > 0) { %>
+                <div class="searches-container">
+                    <% searches.forEach(search => { %>
+                        <div class="card">
+                            <strong>Product Name:</strong> <%= search.product_name %><br>
+                            <strong>Brand:</strong> <%= search.product_brand %><br>
+                            <strong>Ingredients:</strong> <%= search.ingredients %><br>
+                        </div>
+                    <% }) %>
+                </div>
+            <% } else { %>
+                <p class="no-searches">No previous searches found.</p>
+            <% } %>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2024 Food Product Scanner. All Rights Reserved.</p>
+    </div>
+    <script>
+        const imageInput = document.getElementById('image');
+        const fileUploadedText = document.getElementById('file-uploaded');
+        const fileNameText = document.getElementById('file-name');
+
+        imageInput.addEventListener('change', function() {
+            if (imageInput.files.length > 0) {
+                const fileName = imageInput.files[0].name;
+                fileNameText.textContent = fileName;
+                fileUploadedText.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>

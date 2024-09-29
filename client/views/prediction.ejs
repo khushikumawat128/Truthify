@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url('/images/bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            animation: backgroundShift 45s infinite alternate;
+        }
+
+        .container {
+            background-color: rgba(240, 255, 240, 0.9); /* Soft background */
+            padding: 40px;
+            margin: 50px auto;
+            width: 70%;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 100, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #388e3c; /* Dark green */
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin: 15px 0;
+            color: #333;
+        }
+
+        strong {
+            font-weight: 600;
+            color: #2e7d32; /* Slightly darker green */
+        }
+
+        .product-details, .claim-analysis {
+            border: 1px solid #a5d6a7; /* Light green */
+            padding: 20px;
+            background-color: #e8f5e9;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 100, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none; /* Remove bullets */
+            padding-left: 0;
+        }
+
+        li {
+            padding: 10px 0; /* Add equal spacing for list items */
+            color: #333;
+        }
+
+        button {
+            padding: 12px 30px;
+            background-color: #388e3c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #66bb6a; /* Lighter green on hover */
+        }
+
+        @keyframes backgroundShift {
+            0% {
+                background-position: center;
+                background-size: cover;
+            }
+            50% {
+                background-position: top right;
+                background-size: cover;
+            }
+            100% {
+                background-position: bottom left;
+                background-size: cover;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+
+        <div class="product-details">
+            <p><strong>Product Name:</strong> <%= product_name %></p>
+            <p><strong>Brand:</strong> <%= product_brand %></p>
+            <p><strong>Ingredients:</strong> <%= ingredients %></p>
+        </div>
+
+        <% if (typeof verdict !== 'undefined') { %>
+            <h2>Verdict:</h2>
+            <p><%= verdict %></p>
+        <% } %>
+
+        <% if (typeof why !== 'undefined' && why.length > 0) { %>
+            <h3>Reasons:</h3>
+            <ul>
+            <% if (Array.isArray(why) && why.length > 0) { %>
+                <% why.forEach(reason => { %>
+                    <li><%= reason %></li>
+                <% }) %>
+            <% } else { %>
+                <li>No reasons available.</li>
+            <% } %>
+            </ul>
+        <% } %>
+
+        <% if (typeof detailed_analysis !== 'undefined') { %>
+            <h3>Detailed Analysis:</h3>
+            <p><%= detailed_analysis %></p>
+        <% } %>
+
+        <button type="button" onclick="window.location.href='/homepage'">Back to Home</button>
+    </div>
+</body>
+</html>

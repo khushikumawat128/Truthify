@@ -1,0 +1,191 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <%- include('partials/header') %>
+    <div class="container">
+        <div class = "login-form">
+            <h1 class="login">Login</h1>
+            <form action="/loginpage" method="POST">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="loginbutton">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/main.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url('/images/bg4.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            animation: backgroundShift 45s infinite alternate;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .login-form {
+            background-color: rgba(240, 255, 240, 0.8); /* Light mint green, semi-transparent */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 100, 0, 0.2); /* Green shadow */
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h1.login {
+            font-size: 2rem;
+            color: #388e3c; /* Dark green */
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        label {
+            color: #66bb6a; /* Medium green */
+            font-size: 1rem;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #a5d6a7; /* Light green */
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            font-size: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 100, 0, 0.1);
+            transition: border-color 0.3s;
+        }
+
+        input[type="email"]:focus,
+        input[type="password"]:focus {
+            border-color: #66bb6a;
+            outline: none;
+        }
+
+        button.loginbutton {
+            width: 100%;
+            padding: 12px;
+            background-color: #2e7d32; /* Slightly darker green */
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        button.loginbutton:hover {
+            background-color: #66bb6a;
+            transform: scale(1.05);
+        }
+
+        /* Already a user text */
+        .already-user {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #388e3c;
+        }
+
+        .already-user a {
+            color: #2e7d32;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .already-user a:hover {
+            color: #66bb6a;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes backgroundShift {
+            0% {
+                background-position: center;
+                background-size: cover;
+            }
+            50% {
+                background-position: top right;
+                background-size: cover;
+            }
+            100% {
+                background-position: bottom left;
+                background-size: cover;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-form">
+            <h1 class="login">Login</h1>
+            <form action="/loginpage" method="POST">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="loginbutton">Login</button>
+            </form>
+
+            <div class="already-user">
+                Don't have account? <a href="/register">Register here</a>.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

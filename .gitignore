@@ -1,0 +1,13 @@
+.env
+/server/ocr.ipynb
+/server/data.json
+/server/data2.json
+/server/image.png
+/server/downloaded_ingredient_image.jpg
+client/package.json
+client/package-lock.json
+client/node_modules
+client/public/index.html
+client/public/second.html
+image2.webp
+oldfunctions.js

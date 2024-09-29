@@ -1,0 +1,4 @@
+flask
+zenrows
+beautifulsoup4
+psycopg2
