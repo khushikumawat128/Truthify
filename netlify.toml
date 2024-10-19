@@ -1,20 +1,20 @@
 [build]
-  command = "npm run build"  # or your appropriate build command
-  publish = "client/public"  # your publish directory
+  command = "npm run build"  # Your appropriate build command
+  publish = "client/public"   # Your publish directory
 
 [build.environment]
   PYTHON_VERSION = "3.8"  # Specify the Python version
 
+# Consolidate plugins into a single section
 [[plugins]]
   package = "@netlify/plugin-lifecycle"
-
-[plugins.inputs.lifecycle]
-  preBuild = """
-    apt-get update && apt-get install -y libpq-dev
-  """
+  inputs = { 
+    lifecycle = { 
+      preBuild = """
+        apt-get update && apt-get install -y libpq-dev
+      """
+    }
+  }
 
 [[plugins]]
-  package = '@netlify/plugin-lifecycle'
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+  package = "@netlify/plugin-nextjs"  # Keeping this plugin as is
