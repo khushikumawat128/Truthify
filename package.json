@@ -13,7 +13,6 @@
     "dev": "next dev"
   },
   "engines": {
-  "node": "18.x"
+    "node": "18.x"
+  }
 }
-}
-

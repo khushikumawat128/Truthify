@@ -4,7 +4,7 @@ import axios from "axios";
 import path from "path";
 import { fileURLToPath } from "url";
 import pg from "pg";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import passport from "passport";
 import { Strategy as LocalStrategy } from "passport-local";
 import session from "express-session";
@@ -19,8 +19,6 @@ const upload = multer({ dest: 'uploads/' });
 
 const fileName = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(fileName);
-
-
 
 const dotenvDirName = path.dirname(fileName);
 const dotenvPath = path.join(dotenvDirName, "../.env");
