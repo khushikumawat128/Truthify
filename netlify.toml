@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"  # or your appropriate build command
+  publish = "client/public"  # your publish directory
+
+[build.environment]
+  PYTHON_VERSION = "3.8"  # Specify the Python version
+
+[[plugins]]
+  package = "@netlify/plugin-lifecycle"
+
+[plugins.inputs.lifecycle]
+  preBuild = """
+    apt-get update && apt-get install -y libpq-dev
+  """
