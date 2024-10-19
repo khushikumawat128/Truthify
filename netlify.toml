@@ -8,13 +8,11 @@
 # Consolidate plugins into a single section
 [[plugins]]
   package = "@netlify/plugin-lifecycle"
-  inputs = { 
-    lifecycle = { 
-      preBuild = """
-        apt-get update && apt-get install -y libpq-dev
-      """
-    }
-  }
+
+  # Correct syntax for inputs
+  inputs.lifecycle.preBuild = """
+    apt-get update && apt-get install -y libpq-dev
+  """
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"  # Keeping this plugin as is
