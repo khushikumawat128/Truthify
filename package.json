@@ -4,6 +4,7 @@
     "express": "^4.21.0"
   },
   "devDependencies": {
+    "@netlify/build": "^29.55.2",
     "@netlify/plugin-nextjs": "^5.8.0"
   }
 }

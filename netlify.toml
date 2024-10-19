@@ -15,3 +15,6 @@
 
 [[plugins]]
   package = '@netlify/plugin-lifecycle'
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
