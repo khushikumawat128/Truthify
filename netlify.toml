@@ -12,3 +12,6 @@
   preBuild = """
     apt-get update && apt-get install -y libpq-dev
   """
+
+[[plugins]]
+  package = '@netlify/plugin-lifecycle'
